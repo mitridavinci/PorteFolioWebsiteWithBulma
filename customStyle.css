@@ -1,0 +1,16 @@
+body{
+    background: #f1f1f1;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.color_footer{
+ background: #f1f1f1;
+}
+
+.color_active_back{
+    color: blue;
+    background: gainsboro
+}

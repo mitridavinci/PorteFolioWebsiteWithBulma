@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("node_modules/bulma/css/bulma.css");
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>PorteFolio</title>
+    <style>
+      @import url("node_modules/bulma/css/bulma.css");
+      @import url("customStyle.css");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- Barre de navigation fixée -->
+    <nav class="navbar is-fixed-top">
+      <div class="navbar-brand">
+        <a href="" class="navbar-item">
+          <img src="ressources/html-coding.png" alt="logo" srcset="" />
+        </a>
+        <div class="navbar-burger burger" id="btnNav" data-target="menuContent">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="menuContent" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#acc" class="navbar-item"> Accueil </a>
+        </div>
+        <div class="navbar-end">
+          <a href="#aprop" class="navbar-item"> A Propos </a>
+          <a href="#real" class="navbar-item"> Mes Realisations </a>
+          <a href="#contact" class="navbar-item"> Contact </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Section page d'accueil -->
+    <div class="columns is-desktop" id="acc">
+      <div class="column is-6-desktop">
+        <section class="hero is-fullheight">
+          <div class="hero-body">
+            <div class="container has-text-centered">
+              <h2 class="subtitle">Bonjour</h2>
+              <h1 class="title is-1">Je suis John Doe</h1>
+              <h2 class="subtitle is-2">Un dev Front end de plus</h2>
+              <button class="button is-primary is-rounded is-medium">
+                Contacte-moi!
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="column is-6-desktop has-text-centered">
+        <img src="ressources/homeImg.jpg" alt="img accueil" srcset="" />
+      </div>
+    </div>
+
+    <!-- Secion A propos -->
+    <section class="container" id="aprop">
+      <h2
+        class="title is-1 has-text-centered"
+        style="font-family: kaushan script"
+      >
+        Qui Suis Je ?
+      </h2>
+      <figure class="image container is-128x128">
+        <img
+          src="ressources/face.jpg"
+          alt="image profile"
+          class="is-rounded is-centered"
+        />
+      </figure>
+      <br />
+      <div class="columns is-centered">
+        <p class="column is-6 has-text-justified">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eum
+          laudantium dolorem dolorum non pariatur magni voluptas quisquam quos
+          recusandae hic cum est voluptate, dolores ducimus adipisci? Placeat,
+          vero culpa, amet voluptatem aliquam repudiandae voluptatibus atque
+          quos ex voluptas repellendus quia accusantium nam! Voluptates modi
+          ipsum quidem consequatur optio voluptatum est, ut obcaecati, sint
+          autem alias sapiente quae facilis! Quidem corrupti cumque dolorem
+          voluptatum, expedita cum facere corporis nobis rem?
+        </p>
+      </div>
+    </section>
+
+    <!-- Section Project  -->
+    <hr>
+    <section class="container" id="real">
+      <h2 class="title is-1 has-text-centered" style="font-family:kaushan script;">Mes Realisations</h2>
+    
+    <div class="columns is-multiline is-centered is-mobile">
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/Sass.png" alt="logo carte" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Diallo Thierno Souleyman</p>
+                <p class="subtitle is-6">@DialloThierno</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              minus sapiente cum ex dolorum beatae quod eligendi id
+              necessitatibus at consequatur nihil doloremque nesciunt rerum
+              expedita assumenda, blanditiis voluptatibus? Perspiciatis!
+              <a href="#">@bulmaio</a>. <a href="#">#css</a>.
+              <a href="#">#responsive</a>.
+              <br />
+              <time date="1016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/React.png" alt="logo carte" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Diallo Thierno Souleyman</p>
+                <p class="subtitle is-6">@DialloThierno</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              minus sapiente cum ex dolorum beatae quod eligendi id
+              necessitatibus at consequatur nihil doloremque nesciunt rerum
+              expedita assumenda, blanditiis voluptatibus? Perspiciatis!
+              <a href="#">@bulmaio</a>. <a href="#">#css</a>.
+              <a href="#">#responsive</a>.
+              <br />
+              <time date="1016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/bulma-banner.png" alt="logo carte" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Diallo Thierno Souleyman</p>
+                <p class="subtitle is-6">@DialloThierno</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              minus sapiente cum ex dolorum beatae quod eligendi id
+              necessitatibus at consequatur nihil doloremque nesciunt rerum
+              expedita assumenda, blanditiis voluptatibus? Perspiciatis!
+              <a href="#">@bulmaio</a>. <a href="#">#css</a>.
+              <a href="#">#responsive</a>.
+              <br />
+              <time date="1016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/node.png" alt="logo carte" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Diallo Thierno Souleyman</p>
+                <p class="subtitle is-6">@DialloThierno</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              minus sapiente cum ex dolorum beatae quod eligendi id
+              necessitatibus at consequatur nihil doloremque nesciunt rerum
+              expedita assumenda, blanditiis voluptatibus? Perspiciatis!
+              <a href="#">@bulmaio</a>. <a href="#">#css</a>.
+              <a href="#">#responsive</a>.
+              <br />
+              <time date="1016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/JavaScript.png" alt="logo carte" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Diallo Thierno Souleyman</p>
+                <p class="subtitle is-6">@DialloThierno</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              minus sapiente cum ex dolorum beatae quod eligendi id
+              necessitatibus at consequatur nihil doloremque nesciunt rerum
+              expedita assumenda, blanditiis voluptatibus? Perspiciatis!
+              <a href="#">@bulmaio</a>. <a href="#">#css</a>.
+              <a href="#">#responsive</a>.
+              <br />
+              <time date="1016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/AngularJS_logo.svg.png" alt="logo carte" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Diallo Thierno Souleyman</p>
+                <p class="subtitle is-6">@DialloThierno</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              minus sapiente cum ex dolorum beatae quod eligendi id
+              necessitatibus at consequatur nihil doloremque nesciunt rerum
+              expedita assumenda, blanditiis voluptatibus? Perspiciatis!
+              <a href="#">@bulmaio</a>. <a href="#">#css</a>.
+              <a href="#">#responsive</a>.
+              <br />
+              <time date="1016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+
+  <!-- Partie Contact -->
+  <hr>
+  <br><br>
+  <section class="container" id="contact">
+    <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Contactez-moi</h2>
+
+    <div class="field">
+      <label class="label" for="">Nom</label>
+      <div class="control">
+        <input type="text" class="input" placeholder="Nom">
+      </div>
+    </div>
+    <div class="field">
+      <label class="label" for="">Prenom</label>
+      <div class="control has-icons-left ">
+        <input type="text" class="input" placeholder="Prenom">
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="" class="label">Email</label>
+      <div class="control has-icons-left">
+        <input type="text" class="input" placeholder="Email" value="hello">
+        <span class="icon is-small is-left">
+          <i class="fas fa-envelope">
+
+          </i>
+        </span>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="" class="label">Message</label>
+      <div class="control">
+        <textarea class="textarea" placeholder="Votre Message ..." name="" id="" cols="30" rows="10">
+        </textarea>
+      </div>
+    </div>
+
+    <div class="field is-grouped">
+      <div class="control">
+        <button class="button is-link">
+          Envoyer !
+        </button>
+      </div>
+      <div class="control">
+        <button class="is-text">
+          Remettre a zero
+        </button>
+      </div>
+    </div>
+  </section>
+
+<br><br>
+
+<!-- Footer -->
+<footer class="footer color_footer">
+  <div class="content has-text-centered">
+    <p>
+      Tous droits réservés. &copy;
+    </p>
+  </div>
+</footer>
+
+    <script>
+      var btn = document.getElementById("btnNav");
+      var content = document.getElementById("menuContent");
+
+      btn.addEventListener("click", function () {
+        content.classList.toggle("is-active");
+        btn.classList.toggle("is-active");
+      });
+
+      var navbar = document.querySelectorAll(".navbar-item");
+      navbar.forEach(nav =>{
+        nav.addEventListener("click", function(){
+          navbar.forEach(n=>{
+            n.classList.remove("color_active_back");
+          })
+          if(!nav.classList.contains("color_active_back")){
+              nav.classList.toggle("color_active_back");
+          }
+        })
+      })
+    </script>
+  </body>
+</html>
